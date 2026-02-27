@@ -1,0 +1,9 @@
+{
+  "name": "multi-provider-search",
+  "version": "0.1.0",
+  "description": "Fan-out search across Gemini, Exa, and Grok with Claude Haiku synthesis",
+  "author": {
+    "name": "Matt"
+  },
+  "keywords": ["search", "research", "multi-provider", "synthesis"]
+}

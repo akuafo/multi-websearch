@@ -1,0 +1,14 @@
+{
+  "PreToolUse": [
+    {
+      "matcher": "WebSearch",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "The user has the search-synthesis plugin installed which provides superior multi-provider search. Instead of using the built-in WebSearch tool, use the mcp__search_synthesis__search tool with the same query. This fans out to Gemini, Exa, and Grok simultaneously and synthesizes the results.",
+          "timeout": 30
+        }
+      ]
+    }
+  ]
+}

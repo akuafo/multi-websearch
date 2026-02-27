@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "search-synthesis": {
+      "command": "python",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/servers/server.py"],
+      "env": {
+        "GEMINI_API_KEY": "${GEMINI_API_KEY}",
+        "EXA_API_KEY": "${EXA_API_KEY}",
+        "XAI_API_KEY": "${XAI_API_KEY}",
+        "ANTHROPIC_API_KEY": "${ANTHROPIC_API_KEY}"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+mcp[cli]
+anthropic
+google-genai
+exa-py
+httpx
